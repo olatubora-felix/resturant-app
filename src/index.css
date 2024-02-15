@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #dcca87;
+  --secondary-color: #0b0b08;
+  --tertiary-color: #fff;
+}
+
+html,
+body {
+  background-color: var(--secondary-color);
+  font-family: "Cormorant Upright", serif;
+  color: var(--tertiary-color);
+}
+a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+.container-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1rem;
+}
