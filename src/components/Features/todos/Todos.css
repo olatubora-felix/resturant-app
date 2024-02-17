@@ -1,0 +1,29 @@
+.todo-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.todo-wrapper h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.todo-wrapper .todo-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.todo-wrapper h3 {
+  margin: 1rem 0;
+}
+
+.todo-wrapper .todo-btn {
+  width: 100%;
+  background-color: green;
+  color: white;
+}

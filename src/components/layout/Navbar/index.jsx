@@ -39,7 +39,7 @@ export const Navbar = () => {
         </a>
         <ul className="nav-items">
           {routes.map((route) => (
-            <li key={route.path} className="nav-items__list">
+            <li key={route.name} className="nav-items__list">
               <a href={route.path} className="navitems__link">
                 {route.name}
               </a>
@@ -49,7 +49,7 @@ export const Navbar = () => {
         <ul className="nav-brand">
           {auths.map((auth) => (
             <li
-              key={auth.path}
+              key={auth.name}
               className={`nav-items__list border-brand ${auth.style}`}
             >
               <a href={auth.path} className="navitems__link">
